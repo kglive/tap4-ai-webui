@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "ghbuild": "next build && next export",
     "start": "next start",
     "lint": "next lint --cache",
     "lint:fix": "eslint --fix .",

@@ -4,6 +4,7 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   env: {
     NEXT_BASE_API: process.env.NEXT_BASE_API,
   },
